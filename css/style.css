@@ -18,7 +18,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: -0.03;
+  letter-spacing: -0.03em;
   color: #111111;
 }
 .menu-link {
@@ -33,3 +33,37 @@ body {
   color: #fd9222;
 }
 /*  ======= /HEADER STYLES ======= */
+
+/*  ======= HERO STYLES ======= */
+.section-hero {
+  background-color: #111111;
+}
+.hero-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+.hero-btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  color: #ffffff;
+  border-radius: 100px;
+  background: #fd9222;
+}
+.section-hero .link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+}
+.section-hero .scroll {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+/*  ======= /HERO STYLES ======= */
