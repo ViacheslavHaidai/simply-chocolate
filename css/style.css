@@ -122,3 +122,165 @@ body {
   color: #111111;
 }
 /*  ======= /INGRIDIENTS SECTION STYLES ======= */
+
+/*  ======= HOW IT'S MADE SECTION STYLES ======= */
+.how-its-made-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111111;
+}
+.how-its-made-title-part {
+  color: #fd9222;
+}
+.how-its-made-description-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+  color: #111111;
+}
+/*  ======= /HOW IT'S MADE SECTION STYLES ======= */
+
+/*  ======= SECTION PRODUCTS STYLES ======= */
+.our-products-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111111;
+}
+.our-products-title-part {
+  color: #fd9222;
+}
+.our-products-title-card {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111111;
+}
+.our-products-card-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+.our-products-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111111;
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fafafa;
+}
+/*  ======= /SECTION PRODUCTS STYLES ======= */
+
+/*  ======= SECTION SELLERS STYLES ======= */
+.section-selers-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fd9222;
+}
+.section-selers-title-part {
+  color: #111111;
+}
+.section-selers-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+.section-selers-btn {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #ffffff;
+  border-radius: 100px;
+  background: #fd9222;
+}
+/*  ======= /SECTION SELLERS STYLES ======= */
+
+/*  ======= SECTION REVIEVS STYLES ======= */
+.section-revievs-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  color: #fd9222;
+}
+.section-revievs-title-part {
+  color: #111111;
+}
+.section-revievs-card-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #111111;
+}
+.section-reviews-text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+.section-revievs-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111111;
+  border-radius: 100px;
+  border: 1px solid #fd9222;
+}
+/*  ======= /SECTION REVIEVS STYLES ======= */
+
+/*  ======= SECTION SUBSCRIPTION STYLES ======= */
+.section-subscription {
+  background-color: grey;
+}
+.section-subscription-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section-subscription-text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.section-subscription-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 100px;
+  background: #fd9222;
+}
+/*  ======= /SECTION SUBSCRIPTION STYLES ======= */
+
+/*  ======= FOOTER STYLES ======= */
+
+/*  ======= FOOTER STYLES ======= */
