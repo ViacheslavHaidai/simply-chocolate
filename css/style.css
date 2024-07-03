@@ -282,5 +282,44 @@ body {
 /*  ======= /SECTION SUBSCRIPTION STYLES ======= */
 
 /*  ======= FOOTER STYLES ======= */
-
+footer {
+  background: grey;
+}
+.footer-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fd9222;
+}
+.footer-title-part {
+  color: #ffffff;
+}
+.footer-contact-title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  color: #ffffff;
+}
+.footer-contact-list-item-link {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-nav-list-item-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.footer-nav-list-item-link:hover,
+.footer-nav-list-item-link:focus {
+  color: #fd9222;
+}
 /*  ======= FOOTER STYLES ======= */
