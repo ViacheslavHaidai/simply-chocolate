@@ -1,9 +1,22 @@
 /*  ======= COMMON STYLES ======= */
-.list {
-  list-style-type: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.link {
-  text-decoration: none;
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
 }
 button {
   cursor: pointer;
@@ -11,9 +24,30 @@ button {
 body {
   font-family: "Montserrat", sans-serif;
 }
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.container {
+  width: 1136px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 /*  ======= /COMMON STYLES ======= */
 
 /*  ======= HEADER STYLES ======= */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
 .logotype {
   font-size: 18px;
   font-weight: 700;
