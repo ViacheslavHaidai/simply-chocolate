@@ -69,6 +69,7 @@ body {
 .menu-link:focus {
   color: #fd9222;
 }
+
 /*  ======= /HEADER STYLES ======= */
 
 /*  ======= HERO STYLES ======= */
@@ -154,9 +155,6 @@ body {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #ffffff;
-}
-.ingredients-list .sample:nth-child(2n) {
-  color: #111111;
 }
 /*  ======= /INGRIDIENTS SECTION STYLES ======= */
 
