@@ -44,6 +44,9 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 930px;
 }
 .menu {
   display: flex;
