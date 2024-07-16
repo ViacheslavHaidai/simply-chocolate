@@ -40,7 +40,10 @@ body {
 /*  ======= /COMMON STYLES ======= */
 
 /*  ======= HEADER STYLES ======= */
-
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
 .main-nav {
   display: flex;
   align-items: center;
