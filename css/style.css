@@ -37,6 +37,22 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 }
+.section-padding {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111111;
+}
+.accent-color {
+  color: #fd9222;
+}
 /*  ======= /COMMON STYLES ======= */
 
 /*  ======= HEADER STYLES ======= */
@@ -129,21 +145,6 @@ body {
 /*  ======= /OUR BENEFITS STYLES ======= */
 
 /*  ======= INGRIDIENTS SECTION STYLES ======= */
-.section-ingredients {
-  background-color: grey;
-}
-.ingredients-title {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.16;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: #111111;
-}
-.ingredients-title-part {
-  color: #fd9222;
-}
 .ingredients-text {
   text-align: center;
   font-size: 14px;
@@ -163,17 +164,8 @@ body {
 /*  ======= /INGRIDIENTS SECTION STYLES ======= */
 
 /*  ======= HOW IT'S MADE SECTION STYLES ======= */
-.how-its-made-title {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: #111111;
-}
-.how-its-made-title-part {
-  color: #fd9222;
+.section-how-it-made {
+  background-color: grey;
 }
 .how-its-made-description-list-item {
   font-size: 14px;
@@ -185,18 +177,6 @@ body {
 /*  ======= /HOW IT'S MADE SECTION STYLES ======= */
 
 /*  ======= SECTION PRODUCTS STYLES ======= */
-.our-products-title {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: #111111;
-}
-.our-products-title-part {
-  color: #fd9222;
-}
 .our-products-title-card {
   font-size: 18px;
   font-weight: 600;
@@ -223,18 +203,6 @@ body {
 /*  ======= /SECTION PRODUCTS STYLES ======= */
 
 /*  ======= SECTION SELLERS STYLES ======= */
-.section-selers-title {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: #fd9222;
-}
-.section-selers-title-part {
-  color: #111111;
-}
 .section-selers-text {
   font-size: 14px;
   font-weight: 400;
@@ -254,18 +222,6 @@ body {
 /*  ======= /SECTION SELLERS STYLES ======= */
 
 /*  ======= SECTION REVIEVS STYLES ======= */
-.section-revievs-title {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 28px;
-  letter-spacing: -0.72px;
-  text-transform: uppercase;
-  color: #fd9222;
-}
-.section-revievs-title-part {
-  color: #111111;
-}
 .section-revievs-card-title {
   text-align: center;
   font-size: 18px;
