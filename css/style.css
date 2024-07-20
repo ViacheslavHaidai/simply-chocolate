@@ -95,13 +95,17 @@ body {
 
 /*  ======= HERO STYLES ======= */
 .section-hero {
-  background-color: grey;
+  background-color: #1e1823;
+  padding: 380px 0 60px;
 }
 .hero-title {
   font-size: 28px;
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0.03em;
+  width: 484px;
+  color: #ffffff;
+  margin-bottom: 60px;
 }
 .hero-btn {
   font-size: 14px;
