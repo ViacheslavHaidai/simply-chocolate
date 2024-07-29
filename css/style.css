@@ -37,6 +37,7 @@ body {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+  border: solid black 2px;
 }
 .section-padding {
   padding-top: 64px;
@@ -246,8 +247,15 @@ body {
 /*  ======= /INGRIDIENTS SECTION STYLES ======= */
 
 /*  ======= HOW IT'S MADE SECTION STYLES ======= */
-.section-how-it-made {
-  background-color: grey;
+.how-it-made-split {
+  display: flex;
+  gap: 20px;
+}
+.how-it-made-title {
+  margin-bottom: 50px;
+}
+.how-it-made-text {
+  padding: 32px;
 }
 .how-its-made-description-list-item {
   font-size: 14px;
@@ -255,6 +263,14 @@ body {
   line-height: 1.28;
   letter-spacing: -0.28px;
   color: #111111;
+}
+.how-its-made-description {
+  margin-bottom: 28px;
+}
+.how-its-made-description-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 /*  ======= /HOW IT'S MADE SECTION STYLES ======= */
 
