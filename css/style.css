@@ -20,6 +20,7 @@ img {
 }
 button {
   cursor: pointer;
+  display: block;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -282,6 +283,9 @@ body {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #111111;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 2px;
 }
 .our-products-card-text {
   font-size: 12px;
@@ -289,6 +293,8 @@ body {
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  margin-bottom: 18px;
 }
 .our-products-btn {
   font-size: 14px;
@@ -297,6 +303,20 @@ body {
   border-radius: 100px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   background: #fafafa;
+  padding: 8px 20px;
+  margin: 0 auto;
+}
+.our-products-list {
+  display: flex;
+  gap: 18px;
+  margin: 50px 0 32px 0;
+}
+.our-products-list-item {
+  width: calc((100% - 3 * 18px) / 4);
+  padding: 32px 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
 }
 /*  ======= /SECTION PRODUCTS STYLES ======= */
 
