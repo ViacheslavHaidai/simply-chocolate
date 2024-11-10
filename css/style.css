@@ -17,6 +17,7 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 button {
   cursor: pointer;
@@ -327,6 +328,7 @@ body {
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: #111111;
+  width: 407px;
 }
 .section-selers-btn {
   font-size: 18px;
@@ -336,6 +338,20 @@ body {
   color: #ffffff;
   border-radius: 100px;
   background: #fd9222;
+  padding: 14px 40px;
+  border: none;
+}
+.section-selers-list {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.section-selers-list-item {
+  width: calc((100% - 2 * 16px) / 3);
+}
+.section-selers-text-btn {
+  display: flex;
+  justify-content: space-between;
 }
 /*  ======= /SECTION SELLERS STYLES ======= */
 
