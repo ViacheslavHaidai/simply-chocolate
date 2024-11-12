@@ -39,7 +39,6 @@ body {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
-  border: solid black 2px;
 }
 .section-padding {
   padding-top: 64px;
@@ -136,6 +135,7 @@ body {
   background: #fd9222;
   padding: 14px 40px;
   margin-right: 14px;
+  border: none;
 }
 .section-hero .link {
   font-size: 14px;
@@ -158,6 +158,10 @@ body {
   display: flex;
   justify-content: space-between;
   margin-left: 40px;
+}
+.hero-btn-how-made {
+  display: flex;
+  gap: 14px;
 }
 
 /*  ======= /HERO STYLES ======= */
@@ -345,6 +349,7 @@ body {
   display: flex;
   gap: 16px;
   margin-bottom: 32px;
+  margin-top: 50px;
 }
 .section-selers-list-item {
   width: calc((100% - 2 * 16px) / 3);
@@ -409,6 +414,7 @@ body {
 /*  ======= SECTION SUBSCRIPTION STYLES ======= */
 .section-subscription {
   background-color: grey;
+  padding: 72px 0;
 }
 .section-subscription-title {
   text-align: center;
@@ -418,6 +424,9 @@ body {
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  width: 378px;
 }
 .section-subscription-text {
   text-align: center;
@@ -426,6 +435,9 @@ body {
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: #ffffff;
+  width: 467px;
+  margin: 0 auto;
+  margin-bottom: 24px;
 }
 .section-subscription-btn {
   font-size: 18px;
@@ -433,12 +445,15 @@ body {
   color: #ffffff;
   border-radius: 100px;
   background: #fd9222;
+  padding: 14px 40px;
+  border: none;
+  margin: 0 auto;
 }
 /*  ======= /SECTION SUBSCRIPTION STYLES ======= */
 
 /*  ======= FOOTER STYLES ======= */
 footer {
-  background: grey;
+  background-color: #1e1823;
 }
 .footer-title {
   font-size: 28px;
