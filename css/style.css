@@ -455,18 +455,21 @@ body {
 footer {
   background-color: #1e1823;
 }
+.footer-wrapper {
+  padding: 50px 32px;
+}
 .footer-title {
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.02em;
   color: #fd9222;
+  width: 300px;
 }
 .footer-title-part {
   color: #ffffff;
 }
 .footer-contact-title {
-  text-align: center;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.28;
@@ -491,5 +494,19 @@ footer {
 .footer-nav-list-item-link:hover,
 .footer-nav-list-item-link:focus {
   color: #fd9222;
+}
+.footer-title-contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 86px;
+}
+.footer-nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-nav-list {
+  display: flex;
+  gap: 24px;
 }
 /*  ======= FOOTER STYLES ======= */
