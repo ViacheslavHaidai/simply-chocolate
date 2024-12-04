@@ -87,6 +87,8 @@ body {
   gap: 20px;
 }
 .logotype {
+  display: flex;
+  align-items: center;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.11;
