@@ -95,6 +95,21 @@ body {
   letter-spacing: -0.03em;
   color: #111111;
 }
+.logotype-icon {
+  margin-left: 4px;
+}
+.social-list-icon {
+  fill: none;
+  stroke: #111111;
+}
+.social-list {
+  display: flex;
+  gap: 18px;
+}
+.page-header-container {
+  display: flex;
+  justify-content: space-between;
+}
 .menu-link {
   font-size: 14px;
   font-weight: 500;
