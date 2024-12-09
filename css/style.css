@@ -34,7 +34,7 @@ body {
   text-decoration: none;
 }
 .container {
-  width: 1136px;
+  max-width: 1136px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
@@ -102,9 +102,17 @@ body {
   fill: none;
   stroke: #111111;
 }
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  stroke: #fd9222;
+}
 .social-list {
   display: flex;
   gap: 18px;
+}
+.social-list-link {
+  display: block;
+  line-height: 0;
 }
 .page-header-container {
   display: flex;
@@ -128,7 +136,7 @@ body {
 .section-hero {
   background-color: #1e1823;
   padding: 380px 0 60px;
-  max-width: 1136px;
+  max-width: 1104px;
   margin: 0 auto;
   margin-bottom: 72px;
   border-radius: 32px;
